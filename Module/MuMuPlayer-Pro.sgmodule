@@ -1,0 +1,9 @@
+#!name=MuMuPlayer Pro Crack
+#!desc=破解 MuMu模拟器Pro 的模块，仅支持MuMu模拟器1.3.12版本及以下
+#!system=mac
+
+[MITM]
+hostname = -api-pro.mumu.163.com
+
+[Script]
+MuMu.js = type=http-response,pattern=^https://api-pro.mumu.163.com/api/v1/user/info,script-path=https://raw.githubusercontent.com/MacApp-Team/SurgeCrack/main/Script/mumuplayer-pro.js,max-size=16384,debug=true,script-update-interval=86400,requires-body=true
